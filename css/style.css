@@ -1,0 +1,35 @@
+
+body {
+	margin: 0;
+	background: rgba(40,40,40,1);
+	width:100%
+	height:100%
+	overflow: hidden;
+}
+
+#kicken_video{
+	display: flex;
+	float:left;
+	align-items: stretch;
+	align-content: stretch;
+	justify-content: center;
+	background-size: cover;
+	background-position: center center;
+  background-repeat: no-repeat;
+	color: white;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#anta_kicken{
+	display: none;
+	width: 50%;
+	position: fixed;
+	left: 40%;
+	top: 40%;
+	color: white;
+	font-family: cursive;
+	z-index: 1;
+	text-shadow: 2px 2px 2px #000;
+}
